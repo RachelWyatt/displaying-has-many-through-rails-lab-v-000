@@ -1,8 +1,8 @@
 class AppointmentsController < ApplicationController
 
-  def show 
+  def show
   end
 
-  def index 
+  def index
   end
 end

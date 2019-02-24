@@ -5,6 +5,6 @@ class AppointmentsController < ApplicationController
   end
 
   def index
-  raise ActionController::RoutingError.new('Not Found')
+    raise ActionController::RoutingError.new('Not Found')
   end
 end

@@ -1,4 +1,4 @@
 Appointment Times:
 <% @doctor.appointments.each do |appt| %>
-  <%= appt.appointment_datetime.strftime("%B, %d %Y at %H:%M") %>
+  <%= appt.appointment_datetime.strftime("%B %d, %Y at %H:%M") %>
 <% end %>

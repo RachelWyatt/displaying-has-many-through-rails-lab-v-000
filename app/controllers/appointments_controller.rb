@@ -1,5 +1,2 @@
-def index
-end 
-
-def show 
-end 
+class ApplicationsController < ApplicationController
+end

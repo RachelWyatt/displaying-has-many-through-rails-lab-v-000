@@ -1,6 +1,5 @@
 Appointment Times:
-<% @doctor.appointments.each do |comment| %>
-  <%= link_to comment.user.username, user_path(comment.user) %> said
-  <%= comment.content %>
+<% @doctor.appointments.each do |appt| %>
+  <%= appt.month appt.day, appt.year %>
 <% end %>
   

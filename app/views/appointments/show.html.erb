@@ -1,1 +1,3 @@
-<%= link_to @appointment.doctor, doctor_path(@appointment.doctor) %>
+<% @appointment.doctor.each do |doc| %>
+  <%= link_to doc.name, doc_path(doc) %>
+<% end %>

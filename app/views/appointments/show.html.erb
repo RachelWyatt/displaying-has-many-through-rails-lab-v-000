@@ -1,3 +1,1 @@
-<% @appointment.doctors.each do |doc| %>
-  <%= link_to doc.name, doc_path(doc) %>
-<% end %>
+<%= @appointment.doctor %>
